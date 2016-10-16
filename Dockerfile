@@ -21,7 +21,7 @@ ADD bower.json /home/mean/bower.json
 RUN bower install --config.interactive=false --allow-root
 
 # Make everything available for start
-ADD . /home/mean
+#ADD . /home/mean
 
 # Set development environment as default
 ENV NODE_ENV development
